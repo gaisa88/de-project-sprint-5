@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS dds.dm_couriers (
+    id SERIAL PRIMARY KEY,
+    courier_id VARCHAR(50) NOT NULL UNIQUE,
+    name VARCHAR(200) NOT NULL
+);
